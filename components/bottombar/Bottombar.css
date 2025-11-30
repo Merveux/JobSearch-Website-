@@ -1,0 +1,38 @@
+.bottomcontainer {
+    height:40vh;
+    background-color:rgb(62, 29, 92);
+    display:flex;
+    justify-content:space-between;
+    width:100vw;
+    margin-top:57px;
+}
+.sides {
+    width:90vw;
+}
+.firstlinks {
+    margin-right:50px;
+    display:flex;
+    gap:20px;
+}
+.firstlinks .link {
+    text-decoration:none;
+    color:yellow;
+    font-style:italic;
+}
+.commentbox {
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+.commentbox textarea {
+    width:20vw;
+    height:20vh;
+    margin-left:110px;
+    background-color:green;
+    resize:none;
+    border:10px solid yellow;
+    outline:none;
+}
+.commentbox label {
+    margin-left:10px;
+}
