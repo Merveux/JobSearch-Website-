@@ -1,0 +1,60 @@
+.formcontainer {
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    justify-content:center;
+    align-items:center;
+    margin-top:100px;
+    padding-bottom:100px;
+}
+.formcontainer h6 {
+    font-size:20px;
+    font-style:italic;
+    font-weight:bold;
+    color:yellow;
+}
+.inputapplyform {
+    width:100px;
+    height:20px;
+    border-radius:10px;
+    border:0px solid red;
+    color:green;
+}
+.names {
+    display:flex;
+    flex-direction:column;
+}
+.field {
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    margin-left:50px;
+}
+.fileupload {
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+.fileupload input {
+    color:transparent;
+}
+.submitapply {
+   margin-right:45px;
+   margin-top:30px;
+}
+.date {
+    margin-top:-20px;
+}
+.formcontainer {
+    background-color:green;
+    height:80vh;
+    width:50vw;
+    margin-left:320px;
+    border-radius:40px;
+    margin-bottom:500px;
+}
+.formcontainer button {
+    border-radius:10px;
+    border:0px solid grey;
+    cursor:pointer;
+}
