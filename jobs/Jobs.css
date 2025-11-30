@@ -1,0 +1,27 @@
+.containerjobs {
+    display:flex;
+    flex-wrap:wrap;
+    gap:100px;
+}
+.title {
+    display:flex;
+    justify-content:center;
+    margin:20px 0;
+    font-style:italic;
+    font-weight:bold;
+}
+.searchbox {
+    display:flex;
+    justify-content:center;
+    margin:20px 0;
+}
+.searchbox input {
+background-color:rgba(128, 128, 128, 0.034);
+color:black;
+}
+.searchbox button {
+background-color:rgba(128, 128, 128, 0.034);
+color:black;
+border-radius:3px;
+cursor:pointer;
+}
