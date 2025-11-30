@@ -1,0 +1,17 @@
+.containerjob {
+    width:40vw;
+    height:40vh;
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    background-color:grey;
+    justify-content:center;
+    align-items:center;
+    margin-left:45px;
+    border-radius:20px;
+    cursor:pointer;
+}
+.containerjob:hover {
+    transform:scale(1.05);
+    opacity:60%;
+}
