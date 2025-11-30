@@ -1,0 +1,14 @@
+.Layout {
+   display:flex;
+   background-color:green;
+   width:100vw;
+   height:100vh;
+   box-sizing:border-box;
+}
+.leftpart {
+ width:10vw;
+ height:100vh;
+}
+* {
+   height:fit-content;
+}
