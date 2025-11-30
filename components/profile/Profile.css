@@ -1,0 +1,12 @@
+.profilecontainer {
+    width:18vw;
+    height:10vh;
+    background-color:white;
+    display:flex;
+    gap:20px;
+    border-radius:10px;
+}
+.profilelogout {
+    cursor:pointer;
+    color:green;
+}
